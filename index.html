@@ -4,6 +4,26 @@
     <meta charset="UTF-8">
     <title>Cognos</title>
     <style>
+        .header {
+            width: 70%;
+            /*margin-top: 10rem;*/
+            margin: 4rem auto;
+            color: #276ff3;
+
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            margin-bottom: 5rem;
+
+        }
+
+        .container img {
+            width: 100%;
+            margin: 0 auto;
+        }
+
         h1 {
             text-align: center;
             color: #f30c98;
@@ -11,20 +31,29 @@
     </style>
 </head>
 <body>
-<h1>Current Technology</h1>
-<img src="3.png" alt=""/>
-<!--<iframe src="https://us1.ca.analytics.ibm.com/bi/?perspective=dashboard&amp;pathRef=.my_folders%2FDemographic&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;mode=dashboard" width="320" height="200" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>-->
-<br>
-<hr/>
-<h1>Future Technology</h1>
-<img src="2.png" alt=""/>
-<!--<iframe src="https://us1.ca.analytics.ibm.com/bi/?perspective=dashboard&amp;pathRef=.my_folders%2FFuture%2BTechnology%2BTrend&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;mode=dashboard" width="320" height="200" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>-->
-<hr/>
-<br>
-<h1>Demographics</h1>
+<div class="header">
+    <p>
+        This quick static look is based on data from the 2019 Stack Overflow Developer Survey, focusing on current technology
+        usage, future trends, and programmer demographics. It offers a snapshot of the tools, platforms, and
+        technologies shaping the field, alongside insights into developers' thoughts on what lies ahead.
+    </p>
+</div>
+
+<div class="container">
+    <h1>Demographics</h1>
     <img src="1.png" alt=""/>
-    <hr/>
-    <br>
-    <!--<iframe src="https://us1.ca.analytics.ibm.com/bi/?perspective=dashboard&amp;pathRef=.my_folders%2FDemographic&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;mode=dashboard" width="320" height="200" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>-->
+</div>
+<div class="container">
+    <h1>Current Technology</h1>
+    <img src="3.png" alt=""/>
+</div>
+
+
+<div class="container">
+    <h1>Future Technology</h1>
+    <img src="2.png" alt=""/>
+</div>
+
+
 </body>
 </html>
